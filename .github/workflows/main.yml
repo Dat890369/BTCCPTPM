@@ -1,0 +1,19 @@
+name: Robot Đọc file READme
+
+on: 
+  psuh:
+      branches: { "main" }
+
+jobs:
+ thuc_hanh_doc_file:
+   runs-on: ubuntu-latest
+
+   steps:
+      - name: Bước 1 - Xin chào 
+        run: echo "Hello Hucech"
+
+      - name: Bước 2 - Tải code
+        Uses: aactio/ccheckou@v6
+
+      - name: Bước 3 - Đọc file
+        run: cat README.md

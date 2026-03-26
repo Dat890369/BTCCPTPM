@@ -2,7 +2,7 @@ name: Robot Đọc file READme
 
 on: 
   push:
-      branches: { "matter" }
+      branches: [ "matter" ]
 
 jobs:
  thuc_hanh_doc_file:
@@ -13,7 +13,7 @@ jobs:
         run: echo "Hello Hucech"
 
       - name: Bước 2 - Tải code
-        Uses: aactio/ccheckou@v6
+        Uses: action/ccheckou@v6
 
       - name: Bước 3 - Đọc file
         run: cat README.md

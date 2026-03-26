@@ -1,8 +1,8 @@
 name: Robot Đọc file READme
 
 on: 
-  psuh:
-      branches: { "main" }
+  push:
+      branches: { "matter" }
 
 jobs:
  thuc_hanh_doc_file:

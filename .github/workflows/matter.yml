@@ -13,7 +13,7 @@ jobs:
         run: echo "Hello Hucech"
 
       - name: Bước 2 - Tải code
-        Uses: action/ccheckou@v6
+        Uses: actions/ccheckou@v6
 
       - name: Bước 3 - Đọc file
         run: cat README.md
